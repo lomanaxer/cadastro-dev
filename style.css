@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-family: Montserrat, sans-serif;
+    color: #f3f3f3;
+}
+
+p {
+    color: #f3f3f3;
+    text-align: center;
+    padding: 45px;
+    font-size: 1.2em;
+}
+
+.container {
+    width: 1170px;
+    height: 720px;
+    border-radius: 35px;
+    display: flex;
+}
+
+.lado-esquerdo {
+    background-color: #fff;
+    height: 720px;
+    width: 585px;
+    border-radius: 35px 0px 0px 35px;
+    display: inline-block;
+}
+
+span {
+    color: #707070;
+    font-size: 3.6em;
+    font-weight: bold;
+}
+
+#foto {
+    padding: 90px 20px 0 140px;
+    max-height: 396px;
+    max-width: 493px;
+    height: 250px;
+    
+}
+
+.cad-dev {
+    padding-top: 2em;
+    display: grid;
+    justify-content: center;
+    align-items: center
+}
+
+.lado-direito {
+    background-color: #6C63FF;
+    height: 720px;
+    width: 585px;
+    border-radius: 0px 35px 35px 0px;
+    justify-content: right;
+}
+
+.form-area {
+    margin: 15px 35px;
+    display: grid;
+}
+
+.nome-sobrenome {
+    display: inline-flex;
+    justify-content: space-between;   
+    padding-bottom: 17px;
+}
+
+.dev-apply {
+    padding-bottom: 10px;
+    padding-top: 25px;
+}
+
+#devweb {
+    display: inline-flex;
+    padding-bottom: 25px;
+    margin-right: 25px;
+    padding-top: 13px;
+}
+
+.sen-tec {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tec {
+    width: 17em;
+    padding-bottom: 10px;
+
+}
+
+input[type=text] {
+    border:none;
+    border-radius: 2px;
+    height: 2em;
+    font-family: Montserrat, normal, sans-serif;
+    padding-left: 0.5em;
+
+}
+
+input[type=email] {
+    border:none;
+    border-radius: 2px;
+    height: 2em;
+    font-family: Montserrat, normal, sans-serif;
+    padding-left: 0.5em;
+
+}
+
+input[type=checkbox] {
+    margin-left: 10px;
+    display: inline-block;
+    cursor: default;
+}
+
+fieldset {
+    border: none;
+}
+
+#senioridade {
+    font-family: Montserrat, sans-serif;
+    padding-left: 0.5em;
+}
+
+textarea {
+    font-family: Montserrat, sans-serif;
+    padding: 0.8em;
+    width: 32em;
+    height: 12em;
+    border-radius: 1em;
+    margin-left: 2.9em;
+}
+
+button[type="submit"] {
+    font-family: Montserrat, sans-serif;
+    font-size: 1em;
+    padding-left: 0.5em;
+    color: white;
+    width: 10em;
+    height: 1.8em;
+    background-color: #2F2E41;
+    border: none;
+    border-radius: 1em;
+    margin-left: 10em;
+    margin-top: 1em;
+    cursor: pointer;
+    
+}
+
+button[type="submit"]:hover {
+    font-family: Montserrat, sans-serif;
+    font-size: 1em;
+    padding-left: 0.5em;
+    transition: 0.3ms;
+    color: white;
+    width: 10em;
+    height: 1.8em;
+    background-color: #2e2c5a;
+    border: none;
+    border-radius: 1em;
+    margin-left: 10em;
+    margin-top: 1em;
+    cursor: pointer;
+    
+}
+
